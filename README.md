@@ -1,5 +1,5 @@
 <h1 align="center">
-       <img src="./images/backfrontpluslogo.png" with="300" height="400"/>
+       <img src="./images/backfrontpluslogo.png" with="100" height="100"/>
 </h1>
 
 <div align="center">
