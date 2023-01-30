@@ -8,4 +8,4 @@
 
 </br>
 
-## 🚀 [Backfront Plus.](https://backfront.com.br/backfrontplus/)
+## 🚀 [Backfront Plus](https://backfront.com.br/backfrontplus/)
