@@ -11,7 +11,6 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet var tiltleLabel: UILabel!
 
     static let identifier: String = "CustomTableViewCell"
-
     static func nib() -> UINib {
         return UINib(nibName: identifier, bundle: nil)
     }

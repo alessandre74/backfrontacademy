@@ -11,7 +11,6 @@ class CustomCollectionViewCell: UICollectionViewCell {
     @IBOutlet var carImageView: UIImageView!
 
     static let identifier: String = "CustomCollectionViewCell"
-
     static func nib() -> UINib {
         return UINib(nibName: identifier, bundle: nil)
     }

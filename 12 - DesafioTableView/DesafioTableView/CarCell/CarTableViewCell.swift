@@ -13,7 +13,6 @@ class CarTableViewCell: UITableViewCell {
     @IBOutlet var brandLabel: UILabel!
 
     static let identifier: String = "CarTableViewCell"
-
     static func nib() -> UINib {
         return UINib(nibName: identifier, bundle: nil)
     }
