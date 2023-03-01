@@ -19,25 +19,25 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         homeScreen?.delegate(delegate: self)
-        configObserver()
+//        configObserver()
     }
 
-    func configObserver() {
-        NotificationCenter.default.addObserver(self, selector: #selector(updateImac(notification:)), name: Notification.Name("imac"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(updateMabook(notification:)), name: Notification.Name("macbook"), object: nil)
-    }
-
-    @objc func updateImac(notification: NSNotification) {
-        homeScreen?.logoImageView.image = UIImage(named: "imac_pro")
-        homeScreen?.descriptionLabel.text = "Imac das galaxias"
-        view.backgroundColor = .cyan
-    }
-
-    @objc func updateMabook(notification: NSNotification) {
-        homeScreen?.logoImageView.image = UIImage(named: "macbook_pro")
-        homeScreen?.descriptionLabel.text = "Macbook Pro"
-        view.backgroundColor = .red
-    }
+//    func configObserver() {
+//        NotificationCenter.default.addObserver(self, selector: #selector(updateImac(notification:)), name: Notification.Name("imac"), object: nil)
+//        NotificationCenter.default.addObserver(self, selector: #selector(updateMabook(notification:)), name: Notification.Name("macbook"), object: nil)
+//    }
+//
+//    @objc func updateImac(notification: NSNotification) {
+//        homeScreen?.logoImageView.image = UIImage(named: "imac_pro")
+//        homeScreen?.descriptionLabel.text = "Imac das galaxias"
+//        view.backgroundColor = .cyan
+//    }
+//
+//    @objc func updateMabook(notification: NSNotification) {
+//        homeScreen?.logoImageView.image = UIImage(named: "macbook_pro")
+//        homeScreen?.descriptionLabel.text = "Macbook Pro"
+//        view.backgroundColor = .red
+//    }
 }
 
 extension HomeVC: HomeScreenProtocol {
